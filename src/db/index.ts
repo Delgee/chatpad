@@ -5,6 +5,8 @@ import { config } from "../utils/config";
 export interface Chat {
   id: string;
   description: string;
+  inputTokens: number;
+  outputTokens: number;
   totalTokens: number;
   createdAt: Date;
   pinned: boolean;

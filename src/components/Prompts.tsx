@@ -90,6 +90,8 @@ export function Prompts({
                     id,
                     description: "New Chat",
                     totalTokens: 0,
+                    inputTokens: 0,
+                    outputTokens: 0,
                     createdAt: new Date(),
                     pinned: false,
                   });
